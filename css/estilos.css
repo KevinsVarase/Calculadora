@@ -20,30 +20,33 @@ center {
     line-height: 20px;
     border-radius: 20px;
     border: double;
+ 
     
 }
 #Calcular{
     margin: 30px;
     position: relative;
     width: 400px;
-    height: 500px;
+    height: 550px;
     border: 1px solid rgb(95, 144, 236);
     border-radius: 20px;
     background: blue;
     color: aliceblue;
     border: double;
-    left: 90px;
+    left: 430px;
 
 }    
 
 #operaciones{
     position: relative;
-    margin: 10px;
-    width: 93%;
+    margin: 10px auto;
+    width: 70%;
     background: rgb(0, 0, 0);
     border-radius: 20px;
     border: double;
     text-align: right;
+    padding: 10%;
+    
 }
 
 .numero{
@@ -84,6 +87,8 @@ center {
     text-align: center;
     border-radius: 20px;
     border: double; 
+    cursor: pointer;
+
 }
 #borrar{
     text-align: center;
@@ -93,9 +98,25 @@ center {
     height: 30px;
     float: left;
     left: 290px;
-    top: 400px;
+    top: 480px;
     position: absolute;
     border-radius: 20px;
     margin: 5px;
     border: double;
+    cursor: pointer;
+}
+
+#Calcular ul li:hover{
+    background:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+#Calcular ul li:active{
+    background: blue;
+    color:  blue;
+}
+#borrar:hover{
+    background: rgb(255, 255, 255);
+}
+#borrar:active{
+    background: blue;
 }
